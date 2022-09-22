@@ -57,6 +57,7 @@
   },
   "scripts": {
     "prebuild": "tsc",
-    "build": "node ./build.js"
+    "build": "node ./build.js",
+    "prepare": "node ./build.js"
   }
 }
